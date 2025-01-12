@@ -4,7 +4,7 @@ namespace App\Http\Middleware;
 
 use Closure;
 use App\Models\Tenant;
-use App\Support\TenantManager;  // <-- Import our new class
+use App\Support\TenantManager;
 
 class IdentifyTenant
 {
